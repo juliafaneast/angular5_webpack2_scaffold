@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "my-angular5-framwork/",
+    "declaration": false,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "lib": ["es2015", "es2017", "dom"],
+    "noImplicitAny": false,
+    "types": ["node"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "suppressImplicitAnyIndexErrors": true
+  }
+}

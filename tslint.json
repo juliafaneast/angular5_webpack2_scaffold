@@ -1,0 +1,37 @@
+{
+  "extends": ["tslint-angular", "codelyzer", "tslint-config-airbnb"],
+  "rules": {
+    "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
+    "banana-in-box": true,
+    "templates-no-negated-async": true,
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "use-view-encapsulation": false,
+    "no-attribute-parameter-decorator": true,
+    "no-output-named-after-standard-event": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "no-output-on-prefix": true,
+    "no-forward-ref": true,
+    "no-unused-css": true,
+    "use-life-cycle-interface": true,
+    "contextual-life-cycle": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "pipe-impure": true,
+    "import-blacklist": [false, "rxjs"],
+    "max-line-length": [true, 200],
+    "trailing-comma": [
+        true,
+        {
+          "esSpecCompliantes": false
+        }
+    ],
+    "object-literal-shorthand": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
